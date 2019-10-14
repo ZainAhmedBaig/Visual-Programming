@@ -10,15 +10,22 @@ namespace VP
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a Number : ");
+            int a = 0;
+            a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(" ");
-            Console.WriteLine("------------CV-----------");
-            Console.WriteLine("Name  : Zain Ahmed Baig");
-            Console.WriteLine("CGPA  : 3.14");
-            Console.WriteLine("Age   : 22");
-            Console.WriteLine("Depart: BSCS");
-            Console.WriteLine("-------------------------");
+            if (a % 2 == 0)
+            {
+                Console.WriteLine(a + " is an Even number.");
+            }
+            else
+            {
+                Console.WriteLine(a + " is a Odd number.");
+            }
+
+
             Console.ReadLine();
+
         }
     }
 }
