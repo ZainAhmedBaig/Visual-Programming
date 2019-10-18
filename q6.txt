@@ -1,0 +1,25 @@
+Console.WriteLine(" Enter Number A : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(" Enter Number B : ");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(" Enter an Operator : ");
+            String c = Console.ReadLine();
+
+            switch (c)
+            {
+                case "+":
+                    Console.WriteLine("ADDITION :" + (a + b));
+                    break;
+                case "-":
+                    Console.WriteLine("Subtraction :" + (a - b));
+                    break;
+                case "*":
+                    Console.WriteLine("Multiplication :" + (a * b));
+                    break;
+                case "/":
+                    Console.WriteLine("Division :" + (a / b));
+                    break;
+            }
+
+            Console.ReadLine();
