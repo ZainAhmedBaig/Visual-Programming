@@ -1,0 +1,24 @@
+ Console.WriteLine(" Enter Your Marks : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            if(a<60)
+            {
+                Console.WriteLine(" Failed! ");
+            }
+            if (a> 60 && a < 70)
+            {
+                Console.WriteLine(" D ");
+            }
+            if (a > 70 && a < 80)
+            {
+                Console.WriteLine("C! ");
+            }
+            if (a > 80 && a < 90)
+            {
+                Console.WriteLine(" B! ");
+            }
+            if (a >90 && a < 100)
+            {
+                Console.WriteLine(" A! ");
+            }
+            Console.ReadLine();
