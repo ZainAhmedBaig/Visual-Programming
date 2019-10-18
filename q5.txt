@@ -1,0 +1,18 @@
+Console.WriteLine(" Enter an year : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            if (a % 4 == 0)
+            {
+                if (a % 100 == 0)
+                {
+                    if (a % 400 == 0)
+                    {
+                        Console.WriteLine(" Year is a Leap Year! ");
+                    }
+
+                }
+                else { Console.WriteLine(" Year is a Leap Year! "); }
+            }
+            else { Console.WriteLine(" Year is not a Leap Year! "); 
+            }
+            Console.ReadLine();
