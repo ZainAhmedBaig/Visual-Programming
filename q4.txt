@@ -1,0 +1,21 @@
+Console.WriteLine(" Enter a Month: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            if (a == 12 || a == 1 || a == 2 )
+            {
+                Console.WriteLine(" Winter!");
+            }
+            if (a == 3 || a == 4 || a == 5 )
+            {
+                Console.WriteLine(" Spring!");
+            }
+            if (a == 6 || a == 7 || a == 8)
+            {
+                Console.WriteLine(" Summer!");
+            }
+            if (a == 9 || a == 10 || a == 11 )
+            {
+                Console.WriteLine(" Fall!");
+            }
+
+            Console.ReadLine();

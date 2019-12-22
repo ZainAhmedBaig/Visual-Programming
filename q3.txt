@@ -1,0 +1,32 @@
+int a, b, c;
+            Console.WriteLine("Enter three Numbers : ");
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            c = Convert.ToInt32(Console.ReadLine());
+
+            if (a > b && a > c)
+            {
+                Console.WriteLine(a + " is Maximum ");
+            }
+            if (b > a && b > c)
+            {
+                Console.WriteLine(b + " is Maximum ");
+            }
+            if (c > b && c > a)
+            {
+                Console.WriteLine(c + " is Maximum ");
+            }
+
+            if (a < b && a < c)
+            {
+                Console.WriteLine(a + " is Minimum ");
+            }
+            if (b < a && b < c)
+            {
+                Console.WriteLine(b + " is Minimum ");
+            }
+            if (c < b && c < a)
+            {
+                Console.WriteLine(c + " is Minimum ");
+            }
+            Console.ReadLine();
